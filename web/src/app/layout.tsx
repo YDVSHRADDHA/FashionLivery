@@ -20,8 +20,14 @@ export const metadata: Metadata = {
   title: "LIVERY | AI-Native Luxury Fashion Discovery",
   description: "Experience the future of fashion with LIVERY. AI-curated discovery, personalized style DNA, and cinematic editorial shopping.",
   manifest: "/manifest.json",
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
   themeColor: "#050505",
-  viewport: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0",
 };
 
 export default function RootLayout({
