@@ -1,8 +1,6 @@
 {
   "version": 2,
-  "public": true,
-  "framework": "nextjs",
-  "rootDirectory": "web",
-  "buildCommand": "npm run build",
-  "installCommand": "npm install"
+  "buildCommand": "cd web && npm run build",
+  "installCommand": "cd web && npm install",
+  "outputDirectory": "web/.next"
 }
