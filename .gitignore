@@ -1,7 +1,7 @@
 node_modules
 .next
 dist
-.env
+.env*
 *.log
 .DS_Store
 build
