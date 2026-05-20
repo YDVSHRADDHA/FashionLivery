@@ -8,3 +8,4 @@ build
 .vercel
 .vscode
 .idea
+package-lock.json
